@@ -1,0 +1,9 @@
+/.codegraph/
+/.opencode/
+/.claude/
+/.cursor/
+/node_modules/
+/vendor/
+/build/
+*.log
+.DS_Store

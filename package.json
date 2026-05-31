@@ -1,0 +1,23 @@
+{
+  "name": "prompt-to-pattern",
+  "version": "1.0.0",
+  "description": "Compose WordPress pages and templates from block patterns using prompts and AI.",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js src/",
+    "lint:js:fix": "wp-scripts lint-js src/ --fix",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "format": "wp-scripts format src/",
+    "check-engines": "wp-scripts check-engines",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
